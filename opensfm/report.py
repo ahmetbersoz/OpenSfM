@@ -187,7 +187,7 @@ class Report:
         )
 
     def make_processing_summary(self):
-        self._make_section("Processing Summary Test")
+        self._make_section("Processing Summary Test 2")
 
         rec_shots, init_shots = (
             self.stats["reconstruction_statistics"]["reconstructed_shots_count"],
